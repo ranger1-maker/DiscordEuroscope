@@ -7,7 +7,7 @@ DiscordEuroscopeExt::DiscordEuroscopeExt() : EuroScopePlugIn::CPlugIn(EuroScopeP
 	DiscordEventHandlers handlers;
 	memset(&handlers, 0, sizeof(handlers));
 	// handlers
-	Discord_Initialize("477907858072272896", &handlers, 1, NULL);
+	Discord_Initialize("970741467360415834", &handlers, 1, NULL);
 	this->EuroInittime = (int)time(NULL);
 
 	char DllPathFile[_MAX_PATH];
